@@ -3,12 +3,11 @@
     [x] acquisition de l'auv
 
     [x] mouvement de l'auv
+        [x] mise à jour des pointing et acquisition
+        [x] ajout du tracking
 
 # A faire
-
-    [ ] ajout du mouvement de l'auv
-        [ ] mise à jour des pointing et acquisition
-        [ ] ajout du tracking
+    [ ] améliorer l'algorithme, fine-tuning des paramètres
 
     [ ] implémentation de la puissance reçue pour détecter l'auv
 
