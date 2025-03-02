@@ -1,0 +1,16 @@
+# Fait
+    [x] pointing : parcours en spirale d'un plan à une distance d avec un faisceau d'angle alpha en recherche d'un auv fixe
+    [x] acquisition de l'auv
+
+    [x] mouvement de l'auv
+        [x] mise à jour des pointing et acquisition
+        [x] ajout du tracking
+
+# A faire
+    [ ] améliorer l'algorithme, fine-tuning des paramètres
+
+    [ ] implémentation de la puissance reçue pour détecter l'auv
+
+    [ ] ajout du bruit du milieu / diffusion de l'eau
+        [ ] filtre de kalman
+        [ ] mise à jour du pat avec bruit
