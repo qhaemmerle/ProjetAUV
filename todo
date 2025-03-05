@@ -7,10 +7,18 @@
         [x] ajout du tracking
 
 # A faire
-    [ ] améliorer l'algorithme, fine-tuning des paramètres
+    [ ] prise en compte de la puissance échangée (ou la distance capteur-AUV) pour améliorer le PAT
+        [ ] en tracking : diminution de la puissance => agrandissement du faisceau
+        [ ] en tracking : recherche circulaire du faisceau puis déplacement vers le maximum de puissance reçue
+        [ ] en pointing : diminution de la taille du faisceau innversemennt proportionnelle à la distance
 
-    [ ] implémentation de la puissance reçue pour détecter l'auv
+    [ ] optimisation des paramètres du modèle
 
-    [ ] ajout du bruit du milieu / diffusion de l'eau
+    [ ] déplacement de l'auv différent avant et après détection
+
+    [ ] ajout de deep learning
+
+# Peut-être :
+    [ ] bruit du milieu
         [ ] filtre de kalman
         [ ] mise à jour du pat avec bruit
